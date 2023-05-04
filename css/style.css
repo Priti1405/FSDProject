@@ -264,6 +264,58 @@ p {
 
 /* End wellcome Section */
 
+
+/* start chatbot section */
+
+#chatbot
+    {
+        min-height: 50vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+        border: 5px solid crimson; 
+    }
+
+
+    #div1
+    {
+        padding-top: 100px ;
+        width: 50%;
+        height: 300px;
+        float: left;
+    }
+       
+    #div2
+    {
+        text-align: left;
+        font-weight: 300;
+        font-size: 45px;
+        padding-top: 100px ;
+        width: 20%;
+        height: 300px;
+        float: left;
+        letter-spacing: .2rem;
+        margin-bottom: 10px;
+    }
+
+    #div2 span
+    {
+        color: crimson;  
+    }
+#div3
+{   
+    width: 30%;
+    height: 300px;
+    border: 2px solid black;
+    float: left;
+    
+}
+
+
+
+/* end chatbot section */
+
 /* Services Section */
 #services .services {
 	flex-direction: column;
